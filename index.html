@@ -4,12 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
     <title>Document</title>
 </head>
 <body>
-    <h1>Hello World!!</h1>
-    <h2>張本勲ですよね？</h2>
-    <button>はい</button>喝ッ!
-    <button>いいえ</button>あっぱれ
+    <h1>○×ゲーム!!</h1>
+    <h2>問題!!</h2>
+    <p>有名な人であっても生きている間は広辞苑にのることはない</p>
+    <button onclick = "buttonClkick('correct');" class = "choice">○</button>
+    <button onclick = "buttonClick('incorrect');" class = "choice">×</button>
+    <p id = "correct">正解</p>
+    <p id = "incorrect">残念</p>
+
+    <script src = "index.js"></script>
+
 </body>
 </html>
