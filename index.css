@@ -4,3 +4,16 @@ button.choice{
     color:white;
     background-color: brown;
 }
+
+p#correct{
+    display: none;
+}
+
+p#incorrect{
+    display: none;
+}
+
+img.coins{
+    height: 120px;
+    width: 120px;
+}
